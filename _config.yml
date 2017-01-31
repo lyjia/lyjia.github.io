@@ -16,3 +16,6 @@ github_username:
 
 # Build settings
 markdown: kramdown
+
+prose:
+	siteurl: 'https://lyjia.github.io'
