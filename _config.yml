@@ -18,9 +18,9 @@ github_username:
 markdown: kramdown
 
 prose:
-	siteurl: 'https://lyjia.github.io'
-    media: 'media'
-    ignore:
+  siteurl: 'https://lyjia.github.io'
+  media: 'media'
+  ignore:
     - index.md
     - _config.yml
     - /_layouts
