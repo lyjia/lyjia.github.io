@@ -4,7 +4,7 @@
 
     <a class="site-title" href="{{ site.baseurl }}/"><img src="/img/logo_rough_black_250p.png" height="60px" alt="{{ site.title }}" title="{{ site.title }}"></a>
     &nbsp;
-    <span class="site-title-header">{% if page.bigtitle %}{{ page.bigtitle }}{% else %}{{ page.title }}{% endif %}</span>
+    <span class="site-title-header">{% unless page.nobigtitle == "true" %}{% if page.bigtitle %}{{ page.bigtitle }}{% else %}{{ page.title }}{% endif %}{% endunless %}</span>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">

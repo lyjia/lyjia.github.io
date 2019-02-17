@@ -16,3 +16,6 @@ github_username:  lyjia
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag

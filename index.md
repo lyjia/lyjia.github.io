@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 
-bigtitle: 
+title: Home
+nobigtitle: "true"
 ---
 
 # Latest Posts
