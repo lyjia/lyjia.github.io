@@ -4,5 +4,11 @@
 - name: Audio
   link: /audio/
 
+- name: Code
+  link: /code/
+
+- name: Imagery
+  link: /imagery/
+
 - name: About
   link: /about/

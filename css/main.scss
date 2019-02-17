@@ -6,11 +6,17 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Montserrat', sans-serif;
 $base-font-size:   15px;
-$base-font-weight: 400;
+$base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.4;
+
+$body-font-family: 'Merriweather', serif;
+$body-font-size:   15px;
+$body-font-weight: 300;
+$body-small-font-size:  $base-font-size * 0.875;
+$body-base-line-height: 1.4;
 
 $spacing-unit:     30px;
 
@@ -51,3 +57,23 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+// begin custom styles
+.post-content {
+	font-family: $body-font-family;
+	font-size: $body-font-size;
+	font-weight: $body-font-weight;
+	base-line-height: $body-base-line-height;
+}
+
+.post-content-header {
+	font-family: $base-font-family;
+	font-size: $small-font-size;
+	margin-bottom: 1em;
+}
+
+.site-title-header {
+	font-size: 2em;
+	font-weight: 300;
+	line-height: 2;
+}

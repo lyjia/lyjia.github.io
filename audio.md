@@ -21,7 +21,7 @@ Synth programming is an occasional hobby. Some of those designs are posted here:
 
 # Recording and Foley
 
-I sometimes record interesting things and post them online. The following *free* sample packs are available on freesound.org, and licensed as CreativeCommons:
+I sometimes record interesting things and post them online. The following *free* sample packs are available on [freesound.org](https://freesound.org/people/tomc1985/){:target="_blank"}, and licensed as CreativeCommons:
 
 * [Southern California Thunderstorm](https://freesound.org/people/tomc1985/packs/5534/){:target="_blank"}
 * [Dog Playfully Growling](https://freesound.org/people/tomc1985/packs/5533/){:target="_blank"}
