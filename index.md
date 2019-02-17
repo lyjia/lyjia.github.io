@@ -4,6 +4,7 @@
 
 layout: default
 title: 
+bigtitle: 
 ---
 
 # Latest Posts
