@@ -1,5 +1,5 @@
 <header class="post-content-header">
-	Posted <b>{{ post.date | date: "%A, %d %B %Y" }}</b> {% if post.categories > 0 %} from the Department of <b>{{ post.categories | join: ", " }}</b> {% endif %}.  
-	Tagged <b>{{ post.tags | join ", " }}*</b>. 
+	Posted <b>{{ post.date | date: "%A, %d %B %Y" }}</b>{% if post.categories > 0 %}, from the Department of <b>{{ post.categories | join: ", " }}</b> {% endif %}.  
+	Tagged <b>{{ post.tags | join ", " }}</b>. 
 	<a href="{{ post.url }}">Permalink</a>
 </header>

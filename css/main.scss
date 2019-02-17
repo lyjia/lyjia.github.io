@@ -58,6 +58,15 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+.post-title {
+	font-family: $base-font-family;
+	font-weight: 400;
+}
+
+.post-title-list {
+	margin-bottom: 0;
+}
+
 // begin custom styles
 .post-content {
 	font-family: $body-font-family;
@@ -73,7 +82,37 @@ $on-laptop:        800px;
 }
 
 .site-title-header {
-	font-size: 2em;
+	font-size: 2.4em;
 	font-weight: 300;
-	line-height: 2;
+	line-height: 1.58;
+}
+
+h1 {
+	font-size: $base-font-size * 2;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: $base-font-size * 1.75;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: $base-font-size * 1.5;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: $base-font-size * 1.25;
+	font-weight: 400;
+}
+
+
+h5, h6 {
+	font-size: $base-font-size * 1.25;
+	font-weight: 400;
+}
+
+.page-link-highlighted {
+	font-weight: 400;
 }

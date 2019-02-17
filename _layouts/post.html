@@ -2,12 +2,12 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="post-title" itemprop="articleTitle">{{ page.title }}</div>
 	
-  {% assign post = page %}
-  {% include post-content-header.html %}
+  	{% assign post = page %}
+  	{% include post-content-header.html %}
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
+  	<div class="post-content" itemprop="articleBody">
+    	{{ content }}
+  	</div>
 </article>

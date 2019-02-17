@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: 
 ---
 
 # Latest Posts
@@ -11,8 +12,9 @@ layout: default
 ## <a href="{{ post.url }}">{{ post.title }}</a>
 {% include post-content-header.html %}
 
+<div class="post-content">
 {{ post.excerpt }}
-
+</div>
 [(Continued...)]({{ post.url }})
 
 {% endfor %}
