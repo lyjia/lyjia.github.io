@@ -10,9 +10,9 @@ title: Lyjia
 email: n@n.n@n
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://lyjia.github.io" # the base hostname & protocol for your site
 twitter_username: 
-github_username:  
+github_username:  lyjia
 
 # Build settings
 markdown: kramdown
