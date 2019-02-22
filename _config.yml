@@ -13,9 +13,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lyjia.github.io" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  lyjia
+permalink: /:categories/:year/:title:output_ext
 
 # Build settings
 markdown: kramdown
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji

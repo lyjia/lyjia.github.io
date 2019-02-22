@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ site.title | escape }}{% if page.title %} - {{ page.title | escape }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -11,7 +11,10 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Montserrat:300,400" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Montserrat:300,400" rel="stylesheet"> 
+
+  <!-- anchorjs -->
+  <script src="/js/anchor.js"/>
 
   <!-- jekyll-seo-tag -->
   {% seo %}
