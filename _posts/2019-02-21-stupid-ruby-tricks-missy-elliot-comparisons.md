@@ -31,7 +31,7 @@ end
 
 #### Why would we do this?
 
-The short answer is that it prevents us from getting our comparison `==`s mixed up with our assignment `=`s: when you flip the comparators. For example, in the snippet below:
+The short answer is that it prevents us from getting our comparison `==`s mixed up with our assignment `=`s. For example, in the snippet below:
 
 {% highlight ruby %}
 if the_meaning_of_life = 42
