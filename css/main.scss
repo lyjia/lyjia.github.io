@@ -71,6 +71,10 @@ $on-laptop:        800px;
 	base-line-height: $body-base-line-height;
 }
 
+.post-content img {
+	margin-bottom: $spacing-unit / 2;	
+}
+
 .post-content-header {
 	font-family: $base-font-family;
 	font-size: $small-font-size;
@@ -85,9 +89,18 @@ $on-laptop:        800px;
 	.site-title-header {
 		font-size: 2.4em;
 		font-weight: 300;
-		line-height: 1.58;
+		line-height: 1.5;
 		display: inline;
 	}
+}
+
+@mixin hcommon {
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: $spacing-unit;
+	margin-bottom: 0;
 }
 
 h1 {
