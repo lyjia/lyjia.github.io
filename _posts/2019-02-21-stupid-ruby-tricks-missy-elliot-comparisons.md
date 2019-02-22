@@ -11,7 +11,7 @@ tags: ruby programming stupid.ruby.tricks
 
 <div align="center"><a href="https://xkcd.com/153/" target="_blank"><img src="https://imgs.xkcd.com/comics/cryptography.png"></a></div>
 
-This is a trick I learned at work. (I don't know what it's called, but it reminds me of [the above XKCD comic](https://xkcd.com/153/).) It's pretty simple -- when comparing equality against some [scalar](https://softwareengineering.stackexchange.com/questions/238033/what-does-it-mean-when-data-is-scalar) value, *flip the comparators*:
+I don't know what else to call this, and I didn't come up with it, but it does reminds me of [the above XKCD comic](https://xkcd.com/153/), hence the name. It's pretty simple -- when comparing equality against some [scalar](https://softwareengineering.stackexchange.com/questions/238033/what-does-it-mean-when-data-is-scalar) value, *flip the comparators*:
 
 {% highlight ruby %}
 # Divine
